@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>
+jsgame
+</title>
+<div class="container">
+	<div class="center_div0">
+		<h1 align="center" class="textclass2">Welcome to game</h1>
+	</div>
+</div>
+<link rel="stylesheet" type="text/css" href="style1.css"/>
+<style> @import "style1.css" </style>
+<script type="text/javascript" src="pages/js/jquery-2.0.2.min.js">
+</script>
+<script type="text/javascript" src="click.js">
+</script>
+</head>
+<?php
+require_once('connection/index.php');
+?>
+<body>
+	<div class="container">
+	<div class="center_div">
+
+
+
+<!--	<div class="myBox1" style="background:lightgrey;height:100%;width:55%;position:absolute;left:20%;top:0%" id="b2">
+</div>-->
+
+
+		<a id="playtext" class="textclass" href="pages/" style="text-align:center" onmousedown="myfun1('playtext')" onmouseup="myfun('playtext')" 
+		onmouseout="myfun1('playtext')" onmouseover="myfun('playtext')"><strong>PLAY<strong></a><br/><br/><br/>
+
+
+
+		<a id="signup" onmousedown="myfun1('signup')" onmouseup="myfun('signup')" 
+		onmouseout="myfun1('signup')" onmouseover="myfun('signup')" class="textclass" href="signup/"><STRONG>SIGNUP </STRONG></a><br/><br/><br/>
+		
+		<span class="textclass3">To Enjoy the full version</span><br/>
+
+		<p onclick="myfun1()" style="font-size:15px" class="textclass3">
+		(With the full version of the game you will be able to create an account,and maintain your data)</p><br/><br/><br/>
+
+		<a id="login" onmousedown="myfun1('login')" onmouseup="myfun('login')" 
+		onmouseout="myfun1('login')" onmouseover="myfun('login')"
+			class="textclass" href="login/"><STRONG>LOGIN </STRONG></a><br/><br/><p class="textclass3">If u have an account already</p>
+	</div>
+	</div>
+</body>
+</html>

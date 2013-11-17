@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+jsgame
+</title>
+<h1 align="center">Welcome to game</h1>
+<!--<link rel="stylesheet" type="text/css" href="style1.css"/>-->
+<style> @import "style1.css" </style>
+<script type="text/javascript" src="pages/js/jquery-2.0.2.min.js">
+</script>
+<script type="text/javascript" src="click.js">
+</script>
+</head>
+<?php
+require_once('connection/index.php');
+?>
+<body>
+
+<div style="position:absolute; left:580px;">
+	<a id="playtext" href="pages/" onmouseover="myfun('playfree')" onmouseout="myfun1()" class="play"><strong>PLAY<strong></a>
+
+	<a href="signup/"><STRONG>SIGNUP TO ENJOY THE FULL VERSION</STRONG></a><br/><br/>
+	<p onclick="myfun1()">with the full version of the game you will be <br/> able to create an account,and maintain your data.</p>
+	<a href="login/"><STRONG>LOGIN HERE IF U HAVE AN ACCOUNT ALREADY</STRONG></a>
+</div>
+
+<div onmouseover="myfun('playfree')" onmouseout="myfun1('playfree')" class="bluecircle"  style="z-index:-1; background:blue; border-radius: 50%; width: 200px; height: 200px;position:absolute;left:0px;top:200px" id="playfree">
+	<a href="pages/" style="display:block; width:100%; height:100%;" onmouseover="myfun()" onmouseout="myfun1()" ></a>
+</div>
+
+<div onmouseover="myfun('login')" onmouseout="myfun1('login')" class="greencircle" style="background:green; border-radius: 50%; width: 200px; height: 200px;position:absolute;left:200px;top:00px" id="login"/>
+</div>
+<div class="redcircle" style="background:red; border-radius: 50%; width: 200px; height: 200px;position:absolute;left:300px;top:0px" id="signup"/>
+</div>
+
+</body>
+</html>

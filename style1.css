@@ -1,0 +1,64 @@
+.textclass{//links
+	text-align:center;
+	text-indent:center;
+	position:absolute;
+	font-family:"Broadway", Times, serif;
+	text-decoration: none;
+	color:black;
+	font-size:40px;
+}
+.textclass2{//header
+	text-align:center;
+	text-indent:center;
+	font-family:"Broadway", Times, serif;
+	text-decoration: none;
+	text-shadow:3px 3px 5px #888888;
+	color:black;
+	font-size:50px;
+}
+.textclass3{//othertext
+	text-align:center;
+	text-indent:center;
+	position:fixed;
+	font-family:"Calibri", Times, serif;
+	text-decoration: none;
+	//text-shadow:2px 2px 5px #888888;
+	color:white;
+	font-size:20px;
+}
+.center_div{
+	//border:1px solid gray;
+	margin-left:auto;
+	margin-right:auto;
+	width:50%;
+	//background-color:#E8E8E8;
+	background-color:grey;
+	text-align:left;
+	padding-top:50px;
+	padding-left:80px;
+	padding-right:80px;
+	padding-bottom:150px;
+	box-shadow: 8px 8px 55px black;
+	border-top-left-radius: 16px;
+	border-top-right-radius: 16px;
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+}
+.center_div0{
+	//border:1px solid gray;
+	margin-left:auto;
+	margin-right:auto;
+	width:50%;
+	//background-color:#E8E8E8;
+	background-color:grey;
+	text-align:left;
+	padding-top:0px;
+	padding-left:80px;
+	padding-right:80px;
+	padding-bottom:1px;
+	box-shadow: 8px 8px 55px black;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+}

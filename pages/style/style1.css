@@ -1,0 +1,52 @@
+.myPlayer{
+box-shadow: 10px 10px 15px #888888;
+border-top-left-radius:13px;
+border-top-right-radius:13px;
+border-bottom-left-radius:13px;
+border-bottom-right-radius:13px;
+}
+.myBox{
+box-shadow: 10px 10px 15px #888888;
+border-top-left-radius:30px;
+border-top-right-radius:30px;
+border-bottom-left-radius:30px;
+border-bottom-right-radius:30px;
+}
+.myBox1{
+box-shadow: 10px 10px 15px #888888;
+border-top-left-radius:30px;
+border-top-right-radius:30px;
+border-bottom-left-radius:30px;
+border-bottom-right-radius:30px;
+}
+.wall{
+box-shadow: 14px 14px 15px #888888;
+border-top-left-radius:10px;
+border-top-right-radius:10px;
+border-bottom-left-radius:10px;
+border-bottom-right-radius:10px;
+}
+.start_stop{
+box-shadow: 4px 4px 5px #888888;
+border-top-left-radius:15px;
+border-top-right-radius:60px;
+border-bottom-left-radius:15px;
+border-bottom-right-radius:60px;
+}
+.instruction{
+font-family: Chunk;
+font-style:italic;
+}
+.center_div{
+	margin-left:auto;
+	margin-right:auto;
+	width:75%;
+	background-color:#E8E8E8;
+	text-align:left;
+	padding:8px;
+	box-shadow: 4px 4px 15px #888888;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+}
