@@ -1,3 +1,8 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style1.css"/>
+</head>
+<body>
 <?php
 require_once('../connection/index.php');
 $displayForm=True;
@@ -47,3 +52,5 @@ if($displayForm)
 	<?php
 }//if displayForm is true 
 ?>
+</body>
+</html>
